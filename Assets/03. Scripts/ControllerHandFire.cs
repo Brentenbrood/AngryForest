@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Description: 
+ * Controls the hand (GameObject) to be able to interact with 
+ * other specific tagged GameObjects and allowing it to burn.
+ */
+
 public class ControllerHandFire : MonoBehaviour 
 {
 	private const float TIME_TO_BURN = 1f;
